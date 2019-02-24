@@ -7,6 +7,7 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 const alias = {
     jQuery: path.resolve('./node_modules/jquery'),
     $: path.resolve('./node_modules/jquery'),
+    vue: 'vue/dist/vue.js'
 };
 
 const part = {

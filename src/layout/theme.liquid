@@ -18,10 +18,14 @@
 </head>
 
 <body>
+  <div id="app">
 
     **** This is a vue component ****
-   <div id="theme-vue-wrapper" prop-shopname="{{shop.name}}"> ... </div>
+    <example-component
+        shopName="{{ shop.name }}"></example-component>
     *******
-  {{ content_for_layout }}
+
+    {{ content_for_layout }}
+  </div>
 </body>
 </html>
