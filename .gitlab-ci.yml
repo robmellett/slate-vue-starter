@@ -1,5 +1,8 @@
 image: robmellett/lemp:7.2
 
+before_script:
+  - apt install pngquant
+
 deploy:
   only:
     - master
