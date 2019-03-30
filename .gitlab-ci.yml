@@ -1,0 +1,8 @@
+image: robmellett/lemp:7.2
+
+deploy:
+  only:
+    - master
+  script:
+    - yarn
+    - yarn build
