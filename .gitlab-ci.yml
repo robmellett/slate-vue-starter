@@ -1,8 +1,11 @@
 image: robmellett/lemp:7.2
 
+before_script:
+  - apt update
+  - apt install -y pngquant libpng-dev 
+
 deploy:
   only:
     - master
   script:
     - yarn
-    - yarn build
