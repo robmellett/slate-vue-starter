@@ -17,7 +17,7 @@ $ yarn create slate-theme my-new-theme robmellett/slate-vue-starter
 
 - rename .env-sample to .env and setup your development store config.
 
-- run: npm start 
+- run: `yarn start` 
 - slate will open your localhost, just ignore that, and go to your development store. 
 - In the development store you should have your theme loaded
 - Changes will hot reload in the dev store.

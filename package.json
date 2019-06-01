@@ -2,7 +2,7 @@
   "name": "slate-vue-starter",
   "version": "1.0.0",
   "private": true,
-  "author": "Shopify Inc., Liron Navon",
+  "author": "Shopify Inc., Rob Mellett",
   "description": "A barebones, Slate compatible, starting point for developing Shopify themes with vue.",
   "keywords": [
     "shopify",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liron-navon/slate-vue-starter.git"
+    "url": "https://github.com/robmellett/slate-vue-starter"
   },
   "devDependencies": {
     "@shopify/slate-tools": "^1.0.0-beta.14",
