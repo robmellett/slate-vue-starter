@@ -1,3 +1,9 @@
+# Note: Shopify has declared Slate as End of Support
+
+https://github.com/Shopify/slate
+
+If you are still interested in using Vue with Shopify, checkout my Nuxt.js sample that wires up all the hard bits for you. https://github.com/robmellett/shopify-nuxt-demo
+
 ## This is a vue starter template for slate, it is based on Shopify's starter template
 
 
